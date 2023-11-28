@@ -1,0 +1,22 @@
+{
+  "name": "mm2023procon",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-dev": "parcel src/index.html --dist-dir dev",
+    "build": "parcel src/index.html --dist-dir dev --no-source-maps",
+    "clean": "del-cli .parcel-cache dev"
+  },
+  "author": "ya2ha4",
+  "license": "MIT",
+  "dependencies": {
+    "textalive-app-api": "^0.3.2"
+  },
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "parcel": "^2.0.0-beta.3.1",
+    "process": "^0.11.10",
+    "typescript": "^4.4.3"
+  }
+}
